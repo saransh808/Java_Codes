@@ -14,7 +14,7 @@ public class Bytes {
 			byte e=0; 
 			do{
 				e=(byte)(Math.random()*100);
-			}while((e<65 || e>90) ||
+			}while((e<65 || e>90) /*||
 					((char)e !='S') &&
 					((char)e !='A') &&
 					((char)e !='R') &&
@@ -22,7 +22,7 @@ public class Bytes {
 					((char)e !='N') &&
 					((char)e !='S') &&
 					((char)e !='H') 
-					);
+					);try this also*/
 				
 				System.out.print((char)e);	
 		}
