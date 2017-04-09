@@ -53,8 +53,8 @@ public class SyncThread extends Thread {
 		Thread t = new Thread();
 		
 		
-		SyncThread t1 = new SyncThread("Saransh", "Ra1511003010320",t);
-		SyncThread t2 = new SyncThread("Mayuri", "Ra1511003010298",t);
+		SyncThread t1 = new SyncThread("XYZ", "20",t);
+		SyncThread t2 = new SyncThread("ABC", "98",t);
 		
 		
 		t1.start();
